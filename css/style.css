@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fjalla+One&family=Nunito:ital,wght@1,600&family=Oswald:wght@700&family=Rubik:wght@500&display=swap');
+
+body {
+  background-color: #FFFFFF;
+}
+
+.header-bg{
+  background-color: #039AFE;
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+.header h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+.header p{
+  font-size: 15px;
+}
+
+.pricing-section{font-family:'Google Sans',Arial,sans-serif;position:relative;overflow:hidden;display:block;margin:15px 0;line-height:1.7}
+.pricing-section .pricing-title{font-size:1.1rem;margin:1rem 0 0;font-weight:700}
+.pricing-container{display:flex;max-width:1000px;margin:0 auto}
+.pricing-tag{margin:.5rem 0 1rem;font-size:13px;display:inline-block;background:#333;color:#fff;padding:3px 15px;border-radius:20px}
+a.pricing-order-btn{font-size:14px;text-transform:uppercase;text-decoration:none;background:#333;color:#fff;display:inline-block;padding:7px 20px;border-radius:20px;transition:all .3s ease-in-out}
+a.pricing-order-btn:hover{transform:scale(1.1)}
+.pricing-column{background:#fff;padding:30px 15px;box-sizing:border-box;border-radius:10px;text-align:center;width:33%;margin:10px;box-shadow:0 7px 7px rgba(0,0,0,0.06);border:2px solid #fff;transition:all .3s ease-in-out;}
+.pricing-column ul{list-style:none;padding:10px 0;margin:0;font-size:14px;line-height:2.2}
+.pricing-column img{width:90px}
+.pricing-section i{font-size:3rem}
+.pricing-price{font-weight:700;font-size:22px}
+.service-info{opacity:.7}
+.pricing-2-column .pricing-column{width:50%}
+.pricing-column .pricing-price,.pricing-column i{color:#2b73f6}
+.pricing-column:hover{border-color:#2b73f6}
+.pricing-column .pricing-tag,.pricing-column a.pricing-order-btn{background:#2b73f6}
+@media screen and (max-width:580px){
+.pricing-column,.pricing-2-column .pricing-column{width:300px}
+.pricing-container{display:block}}
